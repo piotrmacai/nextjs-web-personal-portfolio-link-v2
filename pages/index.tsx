@@ -142,18 +142,22 @@ const HighlightsSection = () => {
     },
   ];
 
-  const storeCategoryLinks = [    
+  const storeCategoryLinks = [  
+    {
+      category: 'AI Resources & Guides',
+      link: 'https://store.ainsider.co/',
+    },  
     {
       category: 'AI Agents Docs',
-      link: 'https://ainsider.store/aiagent-docs/',
+      link: 'https://store.ainsider.co/docs/',
     },
     {
       category: 'ChatGPT & LLMs',
-      link: 'https://ainsider.store/shop/',
+      link: 'https://store.ainsider.co/shop/',
     },
     {
       category: 'Midjourney & AI Art',
-      link: 'https://ainsider.store/shop/',
+      link: 'https://store.ainsider.co/shop/',
     },
     {
       category: 'AI Newsletter',
@@ -286,12 +290,12 @@ const HighlightsSection = () => {
         // title="Midjourney Prompt Library"
       >
             <VStack flexDirection={{ base: 'column', md: 'row' }} alignItems="flex-start" spacing="2">
-            <Link href="https://ainsider.store" isExternal>
+            <Link href="https://store.ainsider.co/" isExternal>
             <Heading as='h2' size='lg'>
             AI Knowledge Hub
             </Heading>
             </Link>
-          <Link href="https://ainsider.store" isExternal>
+          <Link href="https://store.ainsider.co/" isExternal>
           <Flex
             rounded="full"
             borderWidth="1px"
@@ -308,8 +312,8 @@ const HighlightsSection = () => {
             <Box>
               {' '}
               <Text color="cyan.300" display="inline">
-              <Link href="https://ainsider.store" isExternal>
-              ainsider.store
+              <Link href="https://store.ainsider.co/" isExternal>
+              store.ainsider.co
               </Link>
               </Text>
             </Box>
