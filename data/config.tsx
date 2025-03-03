@@ -36,7 +36,7 @@ const siteConfig = {
     links: [  
       {
         id: 'tools',
-        label: 'Katalog Narzędzi AI',
+        label: 'AI Tools Directory',
         href: 'https://tools.ainsider.pl',
         target: '_blank',
       },
@@ -44,6 +44,12 @@ const siteConfig = {
         id: 'prompts',
         label: 'AI Automation Studio',
         href: 'https://ainsider.agency',
+        target: '_blank',
+      },
+      {
+        id: 'pl',
+        label: 'PL',
+        href: 'https://ainsider.pl',
         target: '_blank',
       },
       {
@@ -74,7 +80,7 @@ const siteConfig = {
       // },
       {
         label: 'Newsletter',
-        href: 'https://newsletter.ainsider.pl',
+        href: 'https://ainsider.beehiiv.com',
         variant: 'primary',
         target: '_blank',
      },

@@ -71,59 +71,59 @@ const HighlightsSection = () => {
   const categoryLinks = [
     {
       category: 'All',
-      link: 'https://tools.ainsider.pl/',
+      link: 'https://ainsider.tools/',
     },
     {
       category: 'AI Agents',
-      link: 'https://tools.ainsider.pl/tools/agenci-ai/',
+      link: 'https://ainsider.tools/agents-hub/',
     },
     {
-      category: 'Automatyzacja',
-      link: 'https://tools.ainsider.pl/tools/automatyzacja/',
+      category: 'Automation',
+      link: 'https://ainsider.tools/tools/automation/',
     },
     {
       category: 'LLMs',
-      link: 'https://tools.ainsider.pl/tools/llm/',
+      link: 'https://ainsider.tools/tools/llms/',
     },
     {
-      category: 'Asystenci AI',
-      link: 'https://tools.ainsider.pl/asystenci-i-chatboty-ai/',
+      category: 'AI Assistants',
+      link: 'https://ainsider.tools/tools/assistants/',
     },
     {
-      category: 'Code & no-code',
-      link: 'https://tools.ainsider.pl/tools/code-no-code/',
+      category: 'Code & No-Code',
+      link: 'https://ainsider.tools/tools/code/',
     },
     // {
     //   category: 'Creative AI',
     //   link: 'https://ainsider.tools/creativehub/',
     // },
     {
-      category: 'Generacja Obrazów',
-      link: 'https://tools.ainsider.pl/tools/generacja-obrazow/',
+      category: 'Image Generation',
+      link: 'https://ainsider.tools/tools/image-generation/',
     },
     {
-      category: 'Generacja Video',
-      link: 'https://tools.ainsider.pl/tools/generacja-video/',
+      category: 'Video Generation',
+      link: 'https://ainsider.tools/tools/video/',
     },
     {
       category: 'Social Media',
-      link: 'https://tools.ainsider.pl/tools/social-media/',
+      link: 'https://ainsider.tools/tools/social-media/',
     },
     {
-      category: 'Produktywność',
-      link: 'https://tools.ainsider.pl/tools/produktywnosc/',
+      category: 'Productivity',
+      link: 'https://ainsider.tools/tools/productivity/',
     },
     {
-      category: 'Muzyka',
-      link: 'https://tools.ainsider.pl/tools/muzyka/',
+      category: 'Music',
+      link: 'https://ainsider.tools/tools/music/',
     },
     {
-      category: 'Mowa',
-      link: 'https://tools.ainsider.pl/tools/mowa/',
+      category: 'Speech',
+      link: 'https://ainsider.tools/tools/voice/',
     },
     {
-      category: 'Wszystkie',
-      link: 'https://tools.ainsider.pl/',
+      category: 'All Categories',
+      link: 'https://ainsider.tools/',
     },
   ];
 
@@ -188,11 +188,11 @@ const HighlightsSection = () => {
       >
          <Link href="https://ainsider.co" isExternal>
          <Heading as='h2' size='xl' mt="-1rem" mb="1rem">
-            Ainsider AI
+            Piotr Macai
             </Heading>
             </Link>
-       AI | LLMs | Agents | Tools | Automations | For Business
-       <Link href="https://ainsider.co" isExternal>
+            AI | LLMs | Agents | Tools | Automations | Web
+       <Link href="https://macai.studio" isExternal>
        <Flex
             rounded="full"
             borderWidth="1px"
@@ -208,7 +208,7 @@ const HighlightsSection = () => {
             <Box>
               {' '}
               <Text color="cyan.300" display="inline">
-              Ainsider.pl
+              Macai.studio
               </Text>
             </Box>
             {/* <IconButton
@@ -222,16 +222,60 @@ const HighlightsSection = () => {
             /> */}
           </Flex>
           </Link>
+          
+       <Link href="https://ainsider.agency" isExternal>
+       <Flex
+            rounded="full"
+            borderWidth="1px"
+            flexDirection="row"
+            alignItems="center"
+            py="1"
+            ps="4"
+            pe="4"
+            mt="2"
+            bg="primary.900"
+            _dark={{ bg: 'gray.900' }}
+          >
+            <Box>
+              {' '}
+              <Text color="cyan.300" display="inline">
+              Ainsider.agency
+              </Text>
+            </Box>
+          </Flex>
+          </Link>
+
+          <Link href="https://ainsider.pl" isExternal>
+       <Flex
+            rounded="full"
+            borderWidth="1px"
+            flexDirection="row"
+            alignItems="center"
+            py="1"
+            ps="4"
+            pe="4"
+            mt="2"
+            bg="primary.900"
+            _dark={{ bg: 'gray.900' }}
+          >
+            <Box>
+              {' '}
+              <Text color="cyan.300" display="inline">
+              Ainsider.pl
+              </Text>
+            </Box>
+          </Flex>
+          </Link>
       </HighlightsTestimonialItem>
 
  <HighlightsItem colSpan={[1, null, 2]}>
       <VStack flexDirection={{ base: 'column', md: 'row' }} alignItems="flex-start" spacing="2">
           <Link href="https://tools.ainsider.pl" isExternal>
             <Heading as='h2' size='lg'>
-            Katalog Narzędzi AI
+            AI Tools Directory
             </Heading>
             </Link>
-          <Link href="https://tools.ainsider.pl" isExternal>
+          <Link href="https://ainsider.tools" isExternal>
           <Flex
             rounded="full"
             borderWidth="1px"
@@ -248,7 +292,7 @@ const HighlightsSection = () => {
             <Box>
               {' '}
               <Text color="cyan.300" display="inline">
-              tools.ainsider.pl
+             Ainsider.tools
               </Text>
             </Box>
             {/* <IconButton
@@ -266,7 +310,7 @@ const HighlightsSection = () => {
 
         <VStack alignItems="flex-start" spacing="1">
           <Text color="muted" fontSize="xl">
-          Katalog darmowych narzędzi i modeli AI z ponad 400 topowymi narzędziami podzielonymi na ponad 20 kluczowych kategorii
+          The ultimate catalog of AI tools and models with over 500 top tools divided into more than 20 key categories.
           </Text>
           <Wrap mt="8">
            {categoryLinks.map((item) => (
@@ -293,12 +337,12 @@ const HighlightsSection = () => {
         // title="Midjourney Prompt Library"
       >
             <VStack flexDirection={{ base: 'column', md: 'row' }} alignItems="flex-start" spacing="2">
-            <Link href="https://ainsider.pl/" isExternal>
+            <Link href="https://ainsider.beehiiv.com/" isExternal>
             <Heading as='h2' size='lg'>
-            Baza wiedzy i zasobów AI
+            Ainsider AI Newsletter - Knowledge base and resources for AI and LLMs
             </Heading>
             </Link>
-          <Link href="https://ainsider.pl/" isExternal>
+          <Link href="https://ainsider.beehiiv.com/" isExternal>
           <Flex
             rounded="full"
             borderWidth="1px"
@@ -315,8 +359,8 @@ const HighlightsSection = () => {
             <Box>
               {' '}
               <Text color="cyan.300" display="inline">
-              <Link href="https://ainsider.pl/" isExternal>
-              Ainsider.pl
+              <Link href="https://ainsider.beehiiv.com/" isExternal>
+              Ainsider.beehiiv.com
               </Link>
               </Text>
             </Box>
@@ -333,7 +377,7 @@ const HighlightsSection = () => {
           </Link>
         </VStack>
         <Text color="muted" fontSize="lg">
-          Implementacje AI | Automatyzacje | Agenci AI | Dokumentacja | Poradniki | Darmowe AI Template
+          AI Implementations | Automations | AI Agents | Documentation | Guides | Free AI Templates
         </Text>
         <Wrap mt="8">
            {storeCategoryLinks.map((item) => (
@@ -355,15 +399,15 @@ const HighlightsSection = () => {
      
       <HighlightsItem
       >
-      <Link href="https://newsletter.ainsider.pl" isExternal>
+      <Link href="https://ainsider.pl" isExternal>
       <Heading as='h2' size='lg' mb="4">
-            Ainsider AI Newsletter
+            Ainsider PL - Baza wiedzy AI po polsku
             </Heading>
         </Link>
         <Text color="muted" fontSize="lg">
-        Narzędzia AI | Agenci AI | Poradniki | Darmowe AI Template
+        Narzędzia AI | Agenci AI | Poradniki | Darmowe Tutoriale
         </Text>
-        <Link href="https://newsletter.ainsider.pl" isExternal>
+        <Link href="https://ainsider.pl" isExternal>
         <Flex
             rounded="full"
             borderWidth="1px"
@@ -379,7 +423,7 @@ const HighlightsSection = () => {
             <Box>
               {' '}
               <Text color="cyan.300" display="inline">
-              <Link href="https://newsletter.ainsider.pl" isExternal>newsletter.ainsider.pl</Link>
+              <Link href="https://ainsider.pl" isExternal>ainsider.pl</Link>
               </Text>
             </Box>
             {/* <IconButton
@@ -401,13 +445,13 @@ const HighlightsSection = () => {
         avatar="/static/images/macai.jpg"
         gradient={['pink.200', 'purple.500']}
       >
-         <Link href="https://macai.studio" isExternal>
+         <Link href="https://ainsider.agency" isExternal>
          <Heading as='h2' size='lg' mt="-1rem" mb="1rem">
-            Piotr Macai
+         Ainsider agency
             </Heading>
             </Link>
-       Founder of Ainsider | Full stack dev | Designer
-       <Link href="https://aitoolslibrary.super.site/ai-insider" isExternal>
+       Web solutions | AI Agents | Automations
+       <Link href="https://ainsider.agency" isExternal>
        <Flex
             rounded="full"
             borderWidth="1px"
@@ -423,7 +467,7 @@ const HighlightsSection = () => {
             <Box>
               {' '}
               <Text color="cyan.300" display="inline">
-              Macai.studio
+              Ainsider agency
               </Text>
             </Box>
             {/* <IconButton
